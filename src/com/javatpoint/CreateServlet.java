@@ -19,6 +19,7 @@ public class CreateServlet extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
 		
+		
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
 		String repassword=request.getParameter("repassword");
@@ -26,6 +27,7 @@ public class CreateServlet extends HttpServlet {
 		String adderess=request.getParameter("adderess");
 		String cityname=request.getParameter("cityname");
 		String statename=request.getParameter("statename");
+		String navya=request.getParameter("navya");
 		
 		String country=request.getParameter("country");
 		String region=request.getParameter("region");
