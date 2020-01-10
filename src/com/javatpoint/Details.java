@@ -12,4 +12,5 @@ public interface Details extends Remote
     public String transfer(int acno,String uname,String pwd,int tacno,int amt) throws RemoteException;
     public String close(int acno,String uname,String pass)  throws RemoteException;
     public String balance(int acno,String uname,String pass) throws RemoteException;
+    public String b(int acno,String uname,String pass) throws RemoteException;
 }
