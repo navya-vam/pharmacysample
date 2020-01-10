@@ -1,6 +1,11 @@
 package com.javatpoint;
 import javax.servlet.*;
 import java.sql.*;
+/*
+line1
+line2
+line3
+*/
 
 public class MyListener implements ServletContextListener{
 
